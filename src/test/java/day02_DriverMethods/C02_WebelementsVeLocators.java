@@ -13,7 +13,6 @@ public class C02_WebelementsVeLocators {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-
         // Amazon sayfasına gidelim
         driver.get("https://amazon.com");
 

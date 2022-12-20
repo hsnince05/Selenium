@@ -61,6 +61,7 @@ public class C01_Examples {
         if(actualYenisize.getWidth()==600 && actualYenisize.getHeight()==600){
             System.out.println("Size TESTİ PASSED");
         }else System.out.println("Size TESTİ FAILED");
+
         Point actualYeniKonum = driver.manage().window().getPosition();
         if(actualYeniKonum.getX()==50 && actualYeniKonum.getY()==50){
             System.out.println("Konum TESTİ PASSED");

@@ -16,7 +16,7 @@ public class C01_Selenium {
           */
 
         WebDriver driver = new ChromeDriver();// Bos bir browser actik
-        driver.get("https://www.amazon.com");//ilk olarak gitmek istedigimiz sasyfayi belirtiriz.
+        driver.get("https://www.amazon.com");//ilk olarak gitmek istedigimiz sayfayi belirtiriz.
         System.out.println("Sayfa Basliği: " + driver.getTitle());
         System.out.println("Sayfa Url'i: " + driver.getCurrentUrl());
 
