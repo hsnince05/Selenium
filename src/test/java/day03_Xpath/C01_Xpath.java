@@ -20,7 +20,6 @@ public class C01_Xpath {
 
         //Add Element butonuna basin
         Thread.sleep(3000);
-
         //WebElement addButton = driver.findElement(By.xpath("//*[@onclick='addElement()']"));
         WebElement addButtonT = driver.findElement(By.xpath("//*[text()='Add Element']"));
 
